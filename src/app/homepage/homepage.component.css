@@ -1,0 +1,119 @@
+.carousal-wrapper{
+    width: 100%;
+    height: 391px;
+}
+
+.innerheader{
+   display: flex;
+   padding-top: 30px;
+}
+.header div{
+   flex: 1;
+   padding-top: 30px;
+   font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .header .dropdown  div{
+   flex: 1;
+   padding-top: 30px;
+   font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .men{
+   margin-left: 55px;
+   text-align: center;
+   flex: 0 0 5em !important;
+ }
+ .men:hover{
+   border-bottom: 4px solid #ee5f73;cursor: pointer;
+ }
+ .women{
+   text-align: center;
+   flex: 0 0 6em !important;
+ }
+ .women:hover{
+   border-bottom: 4px solid #fb56c1;cursor: pointer;
+ }
+
+
+ .kids{
+   text-align: center;
+   flex: 0 0 5em !important;
+ }
+ .kids:hover{
+   border-bottom: 4px solid #ee5f73;cursor: pointer;
+ }
+
+ .hnl{
+   text-align: center;
+   flex: 0 0 10em !important;
+   
+ }
+ .hnl:hover{
+   border-bottom: 4px solid  #f2c210;cursor: pointer;
+ }
+
+ .beauty{
+   text-align: center;
+   flex: 0 0 6em !important;
+   
+ }
+ .beauty:hover{
+   border-bottom: 4px solid   #0db7af;cursor: pointer;
+ }
+
+ .studio{
+   text-align: center;
+   flex: 0 0 5em !important;
+ }
+ .studio:hover{
+   border-bottom: 4px solid #ee5f73;cursor: pointer;
+ }
+ .dropdown-content a {
+   color: black;
+   padding: 4px 45px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   padding-right: 174px 
+ }
+ .dropdown-content {
+    display: none;
+   position: absolute;
+   background-color: #ffffff;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   margin-top: 32px;
+   /* padding: 120px 300px; */
+ }
+ .men:hover .dropdown-content {display: block;}
+ .women:hover .dropdown-content {display: block;}
+ .kids:hover .dropdown-content {display: block;}
+ .hnl:hover .dropdown-content {display: block;}
+ .beauty:hover .dropdown-content {display: block;}
+ .studio:hover .dropdown-content {display: block;}
+ .profile:hover .dropdown-content {display: block;}
+ .header div .logo{
+    flex: auto;
+    width: 49px;
+    height: 36px
+ }
+ .header div .search{
+    flex: auto;
+    width: 130px;
+    height: 30px;
+ }
+.header{
+    display: flex;
+    height: 82px;
+    background-color: white;
+    margin-bottom: 48px;
+    box-shadow: 0px 2px 18px #e8e8e8;
+}
+
+.profile:hover{
+  border-bottom: 4px solid #ee5f73;cursor: pointer;
+}
